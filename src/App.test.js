@@ -68,6 +68,6 @@ describe('<App />', () => {
         getPrices={getPrices} />
     );
 
-    expect(wrapper.find('p').length).toBe(3)
+    expect(wrapper.find('h3').length).toBe(3)
   });
 });
